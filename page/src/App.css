@@ -1,0 +1,192 @@
+/*Loading, Main, Market1, QrPay, ConsumerPay, Marketpnt*/
+
+.left-box {
+  font-size: 50px;
+  margin-top:200px;
+  text-align:center;
+  float: left;
+  width: 50%;
+}
+.right-box {
+  margin-top:50px;
+  text-align:center;
+  float: right;
+  width: 50%;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: black;
+}
+
+.Loading{
+  text-align: center;
+  margin-top: 300px;
+}
+
+.ImgLoading{
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+  margin-top:200px;
+}
+
+@keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+
+.Bluelogo{
+  font-size:20px;
+  position: absolute; 
+  left:10px;
+  bottom:10px;
+  }
+
+.MainTitle {
+  margin-top: 100px;
+  margin-bottom:50px;
+  text-align: center;
+}
+
+.Login{
+  text-align: center;
+  display:block;
+  cursor: text;
+  width: 400px;
+  height: 50px;
+  margin: 20px;
+}
+
+.LogButton{
+  background-color: gray;
+  font-size:50px;
+  color:white;
+  padding:50px;
+  padding-right:5px;
+  padding-left:5px;
+  position:absolute;
+  top:260px;
+  right:50px;
+}
+
+.ServiceName{
+  margin-bottom:80px;
+}
+
+.BluePoint{
+  width: 250px;
+  height: 40px;
+  margin: 20px;
+}
+
+.MarketBt1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right:5px;
+  padding:30px;
+  padding-bottom:70px;
+  background-color: pink;
+}
+
+.MarketBt{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right:5px;
+  padding:30px;
+  background-color: pink;
+}
+
+.UseGuide{
+  margin-left:70px;
+  border-width:1px;
+  border-color:black;
+  border-style:solid;
+  padding-top:15px;
+  padding-bottom:15px;
+  text-align: left;
+  margin-top:40px;
+  border-width:3px;
+}
+
+.Qr{
+  width: 300px;
+  height:300px;
+}
+
+.Cancel{
+  background-color: gray;
+  font-size:50px;
+  padding:100px;
+  padding-top:5px;
+  padding-bottom:5px;
+  margin-top:100px;
+}
+
+.Phone
+{
+   margin-top:70px;
+   margin-bottom:50px;
+   width: 400px;
+  height: 50px;
+}
+
+.PhoneBt
+{
+  margin:10px;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding:50px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.PhoneBt1
+{
+  margin:10px;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding:43px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.PhoneBt2
+{
+  margin:10px;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding:70px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.ViewPhn{
+  margin-top:50px;
+  display:inline;
+  border-width:1pt;
+  border-style:solid;
+  border-color: black;
+  padding:7pt;
+  padding-left:12pt;
+  padding-right:12pt;
+}
+
+.InputPnt{
+  font-size:30px;
+  margin-top:200px;
+   margin-bottom:200px;
+   width: 400px;
+  height: 70px;
+}
+
+.SaveBt{
+  font-size:30px;
+  margin:10px;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding:70px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+
